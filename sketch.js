@@ -43,8 +43,8 @@ function setup() {
 	World.add(world, ground);
 	 
 	box1 = new Box(400,height- 55,200,20); 
-	box2 = new Box(290,height- 165,20,100);
-	box3 = new Box(510,height- 165,20,100);
+	box2 = new Box(290,height- 95,20,100);
+	box3 = new Box(510,height- 95,20,100);
 
 	Engine.run(engine);
 
